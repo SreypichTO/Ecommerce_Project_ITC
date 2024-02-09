@@ -14,6 +14,22 @@ use App\Http\Controllers\ProductController;
 |
 */
 
+// //:::::::::::::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Auth
+// Route::group(['/login' => 'auth'], function () {
+//     require(__DIR__ . '/auth.php');
+// });
+// //:::::::::::::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Authenticated
+// // Route::group(['middleware' => 'auth'], function () {
+// //     // :::::::::::::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Category
+// //     // require(__DIR__ . '/brand.php');
+// //     // // :::::::::::::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Product
+// //     // require(__DIR__ . '/product.php');
+// //     // // :::::::::::::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Cart
+// //     // require(__DIR__ . '/cart.php');
+// // });
+
+
+
 Route::get('/', function () {
     return view('products.show');
 });
@@ -29,3 +45,5 @@ Route::get('/product/delete/{id}', [ProductController::class, 'delete'])->name('
 Route::POST('/product/update/{id}', [ProductController::class, 'update'])->name('products.update');
 Route::get('/product/show/json', [ProductController::class, 'showJson'])->name('products.showJson');
 Route::get('/product/show/json/{id}', [ProductController::class, 'showJsonById']);
+
+

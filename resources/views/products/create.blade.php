@@ -13,6 +13,13 @@
             margin: 0;
             padding: 0;
         }
+        .header {
+            text-align: center;
+            background-color: #007bff;
+            padding: 10px;
+            color: #fff;
+            font-size: 24px;
+        }
 
         .navbar {
             background-color: #007bff;
@@ -83,15 +90,17 @@
 </head>
 
 <body>
+    <div class="header">
+        <h1>SHOES-SHOP</h1>
+    </div>
     <div class="d-flex justify-content-center">
         <nav class="navbar navbar-light bg-light">
-            <a href="{{ route('products.show') }}" class="btn btn-primary">Show All</a>
-            <a href="{{ route('products.create') }}" class="btn btn-primary">Create New</a>
+            <a href="{{ route('products.show') }}" class="btn btn-primary">Show All Product</a>
         </nav>
     </div>
 
     <div class="container">
-        <h3>Create Book</h3>
+        <h3>Create New Product</h3>
         <form action="{{ route('products.store') }}" enctype="multipart/form-data" method="POST">
             {{ csrf_field()}}
             <div class="form-group">

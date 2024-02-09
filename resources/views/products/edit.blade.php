@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Book</title>
+    <title>Edit Product</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <style>
@@ -14,6 +14,14 @@
             margin: 0;
             padding: 0;
         }
+        .header {
+            text-align: center;
+            background-color: #007bff;
+            padding: 10px;
+            color: #fff;
+            font-size: 24px;
+        }
+
 
         .navbar {
             background-color: #007bff;
@@ -28,7 +36,8 @@
 
         .container {
             max-width: 600px;
-            margin: 0 auto;
+            margin: 0px auto;
+            margin-top: 80px;
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
@@ -88,15 +97,11 @@
 </head>
 
 <body>
-    <div class="d-flex justify-content-center">
-        <nav class="navbar navbar-light bg-light">
-            <a href="{{ route('products.show') }}" class="btn btn-primary">Show All</a>
-            <a href="{{ route('products.create') }}" class="btn btn-primary">Create New</a>
-        </nav>
+    <div class="header">
+        <h1>SHOES-SHOP</h1>
     </div>
-
     <div class="container">
-        <h3>Edit Book</h3>
+        <h3>Edit Product</h3>
         <form action="{{ route('products.update', $product->id) }}" enctype="multipart/form-data" method="POST">
             @csrf 
             <div class="form-group">
@@ -136,9 +141,11 @@
             <div class="form-group">
                 <img src="{{ asset("uploads/" . $product-> image) }} " alt="">
             </div>
-            <div class="form-group">
+            <div class="form-group-btn">
+                <a href="{{ route('products.show') }}" class="btn btn-primary">Back</a>
                 <button type="submit" class="btn btn-primary">Update</button>
             </div>
+    </div>
         </form>
     </div>
 
