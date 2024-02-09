@@ -21,9 +21,9 @@
             <div class="size">
               <p class="mt-1">available size : </p>
                 <ul class="d-flex mx-1">
-                    <li><button type="button" class="mx-2 rounded-circle border border-secondary ">S</button></li>
-                    <li><button type="button" class="mx-2 rounded-circle border border-secondary ">M</button></li>
-                    <li><button type="button" class="mx-2 rounded-circle border border-secondary ">L</button></li>
+                    <li style="list-style: none;"><button type="button" class="me-3 px-4 btn btn-light">S</button></li>
+                    <li style="list-style: none;"><button type="button" class="me-3 px-4 btn btn-light">M</button></li>
+                    <li style="list-style: none;"><button type="button" class="me-3 px-4 btn btn-light">L</button></li>
                 </ul>
             </div>
             <!-- <hr class="hr"> -->

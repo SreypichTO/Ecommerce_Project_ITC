@@ -13,7 +13,9 @@
 <div class="show-product">
         <center>
 <div id="p-i" class="" >
-        
+     <div class="banner">
+        Discover your favourite shoes here!
+     </div>   
     <section class="text-black py-20 bg-gray-100">
         <div class="container mx-auto px-4">
             <div class="flex justify-center items-center">
@@ -48,7 +50,7 @@
           </router-link>
           <div class="product-details">
             <h4>{{ product.title }}</h4>
-            <p class="product-price">Price: ${{ product.price }}</p>
+            <p class="product-price">Price:  ${{ product.price }}</p>
             <p class="product-category">Category: {{ product.category }}</p>
             <p class="product-description">Description: {{ product.description }}</p>
             <i class="fa-solid fa-circle-plus cart-icon" @click="addToCart(product)"></i>
@@ -193,7 +195,14 @@ export default {
   margin-top:75px;
   padding: 0 13px;
 }
-
+.banner{
+  padding-left: 90px;
+  width: 150px;
+  color: #111827;
+  font-family: 'Inria Sans', sans-serif; 
+  font-size: 50px;
+  font-weight: 700;
+}
 .beating-icon {
   animation: pulse 1s infinite;
 }
@@ -209,7 +218,7 @@ export default {
       width: 100%;
       height: 500px;
       border-radius: 5px;
-      background-image: url('../assets/images/img1.jpg');
+      background-image: url('../assets/images/banner.jpg');
       background-size: 100%;
       text-align: center;
       padding: 20px;

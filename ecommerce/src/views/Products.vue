@@ -198,7 +198,7 @@ export default {
             <p class="product-price">Price: ${{ product.price }}</p>
             <p class="product-category">Category: {{ product.category }}</p>
             <p class="product-description">Description: {{ product.description }}</p>
-            <i class="fa-solid fa-circle-plus cart-icon" @click="addToCart(product)"></i>
+            <i class="fa-solid fa-circle-plus cart-icon " @click="addToCart(product)"></i>
           </div>
         </li>
       </ul>
