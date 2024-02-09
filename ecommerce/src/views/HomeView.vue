@@ -1,7 +1,8 @@
+
 <template>
   <div class="home">
+    
     <div class="warpper">
-
       <div class="bargen-box">
       <b class="">SPRING SALE — 20% OFF WITH CODE: SPRING 
         <button style="background-color: #000000;
@@ -9,47 +10,31 @@
           <RouterLink to="/product"><b style="color: aliceblue;">SHOP NOW</b></RouterLink></button>
         </b>
       </div>
-      
-      <div class="show-product">
+<div class="show-product">
         <center>
-          <div id="p-i" class="" >
+<div id="p-i" class="" >
+        
+    <section class="text-black py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center items-center">
+                <div class="splide w-full md:w-1/3">
+                    <div class="splide__track ">
+                        <div class="splide__list">
+                            <div v-for="image in images" :key="image.id" class="splide__slide">
+                                <img class="object-cover" :src="image" :alt="image.alt">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</section>
+
           </div>
         </center>
-      </div>
-
-      <!-- <div class="row-css">
-        <div class="column-css">
-          <h1>COUPON Saving</h1><br>
-          <h1>up to 25%</h1><br>
-          <div>
-            <button class="claim-button">
-              <b>Claim</b>
-            </button>
-            <i class="fa-solid fa-ticket coupon-icon">%50</i>
-          </div>
-        </div>
-        <div class="column-css">
-          <h1>Free Delivery</h1><br>
-          <h1>For spending up $100</h1><br>
-          <div>
-            <button class="claim-button">
-              <b>Claim</b>
-            </button>
-            <i class="fa-solid fa-truck-fast delivery-icon"></i>
-          </div>
-        </div>
-        <div class="column-css">
-          <h1>GOLD MEMBERSHIP</h1><br>
-          <h1>up to 50%</h1><br>
-          <div>
-            <button class="claim-button">
-              <b>Claim</b>
-            </button>
-            <i class="fa-solid fa-circle-user membership-icon"></i>
-          </div>
-        </div>
-      </div> -->
-
+        
+</div>
 
     <div class="list-product">
 
@@ -126,9 +111,11 @@ export default {
 }; 
 </script> -->
 
+
 <script>
 import Index from "./Index.vue";
 import search from "./search.vue";
+
 
 export default {
   name: 'product',
@@ -222,24 +209,14 @@ export default {
       width: 100%;
       height: 500px;
       border-radius: 5px;
-      background: url('../assets/images/img2.jpg') no-repeat;
+      background-image: url('../assets/images/img1.jpg');
       background-size: 100%;
       text-align: center;
       padding: 20px;
       font-size: 18px;
       font-weight: bold;
 }
-.bargen-box {
-  
-      width: 100%;
-      height: 100px;
-      border: 1px solid #000;
-      background-color: #ede734;
-      text-align: center;
-      padding: 20px;
-      font-size: 18px;
-      font-weight: bold;
-    }
+
 
 /* Styles for large screens */
 .row-css {
@@ -369,10 +346,7 @@ export default {
   
 }
 
-  .bargen-box {
-    padding: 10px;
-    font-size: 16px;
-  }
+
   #p-i {
     height: 500px;
     padding: 10px;
@@ -404,10 +378,7 @@ export default {
   
 }
 
-  .bargen-box {
-    padding: 10px;
-    font-size: 16px;
-  }
+
   #p-i {
     height: 500px;
     padding: 10px;

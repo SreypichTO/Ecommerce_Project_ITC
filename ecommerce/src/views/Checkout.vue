@@ -95,10 +95,12 @@
     </div>
    
   </div>
-  <button @click="$emit('cancel')">Cancel</button>
+  <button @click="$emit('cancel')" class="btn btn-dark mt-5 mb-2 w-9">Cancel</button>
 </template>
 
 <style>
+
+
 @media (max-width: 768px) {
   .checkout {
     margin-top: 80px;

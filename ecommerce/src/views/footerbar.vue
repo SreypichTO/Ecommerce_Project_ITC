@@ -1,34 +1,25 @@
 <template>
     <footer>
     <div class="container">
-    <div class="footer-content">
-      <div class="footer-logo">
-        <a href="#"><RouterLink to="/"><h3>HENG VISOTHI</h3></RouterLink></a>
-      </div>
-      <nav class="footer-nav">
-        <ul>
-        <li><RouterLink to="/">Home</RouterLink></li>
-        <li><RouterLink to="/about">About</RouterLink></li>
-        <li><RouterLink to="/product">Product</RouterLink></li>
-        </ul>
-      </nav>
-    </div>
-    <p class="footer-text">&copy; 2023 HENG VISOTHI. All rights reserved.</p>
+       
+        <center>
+          <p class="footer-text">&copy; 2024 SHOES-SHOP. All rights reserved.</p>
+
+        </center>
+        
   </div>
   </footer>
 </template>
 <style>
-footer {
- /* background-color: #4a98f7;
- color: #fff; */
- background: #C9CCD3;
- background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
- background-blend-mode: lighten;
+footer{
+ 
+ background: #111827;
  padding: 20px 0;
+ height: 89px;
 }
 
 .container {
- max-width: 1200px;
+ max-width: 1600px;
  margin: 0 auto;
  padding: 0 20px;
 }
@@ -36,11 +27,13 @@ footer {
 .footer-content {
  display: flex;
  justify-content: space-between;
+ /* justify-content: center; */
  align-items: center;
+
 }
 
 .footer-logo a {
- /* color: #fff; */
+color: white;
  font-size: 24px;
  text-decoration: none;
 }
@@ -52,16 +45,22 @@ footer {
 
 .footer-nav li:not(:last-child) {
  margin-right: 20px;
+ 
 }
 
 .footer-nav a {
- /* color: #fff; */
- text-decoration: none;
+color: white;
+text-decoration: none;
+
 }
 
 .footer-text {
  text-align: center;
- margin-top: 20px;
+ /* margin-top: 20px; */
+ color: white;
+font-family: 'Open Sans', sans-serif; 
+font-size: 20px;
+font-weight: 700;
 }
 
 </style>

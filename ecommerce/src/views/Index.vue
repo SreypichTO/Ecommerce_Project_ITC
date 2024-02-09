@@ -1,9 +1,10 @@
+
 <template>
   <header>
   
    <nav class="nav">
     <i class="uil uil-bars navOpenBtn"></i>
-    <a href="#" class="logo"><RouterLink to="/"><h3>HENG VISOTHI</h3></RouterLink></a>
+    <a href="#" class="logo"><RouterLink to="/"><h3>SHOES-SHOP</h3></RouterLink></a>
    
      <ul class="nav-links">
        <i class="uil uil-times navCloseBtn"></i>
@@ -16,6 +17,17 @@
        <!-- <li><a href="#">About Us</a></li>
        <li><a href="#">Contact Us</a></li> -->
      </ul>
+
+
+
+     <nav class="footer-nav">
+              <ul>
+              <li><RouterLink to="/">Home</RouterLink></li>
+              <li><RouterLink to="/about">About</RouterLink></li>
+              <li><RouterLink to="/product">Product</RouterLink></li>
+              </ul>
+      </nav>
+
      <div>
      <i class="uil uil-search search-icon" id="searchIcon"></i>
      <RouterLink to="/checkout"><i class="uil uil-user user-icon" id="userId"></i></RouterLink>
@@ -30,6 +42,7 @@
    </nav>
 
   </header>
+ 
 <!--  -->
  <RouterView />
 
@@ -88,29 +101,33 @@ export default {
  left: 0;
  width: 100%;
  padding: 15px 200px;
- /* background: #4a98f7; */
- /* background-color: #DCD9D4; */
- background: #C9CCD3;
- background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
- background-blend-mode: lighten;
- background-blend-mode: soft-light,screen;
- box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ background: #111827;
+
 }
 .nav,
 .nav .nav-links {
  display: flex;
  align-items: center;
 }
+.nav-links{
+  background-color: #111827;
+
+}
 .nav {
  justify-content: space-between;
 }
 a {
-  color: #000000;
+color: white;
+font-family: 'Open Sans', sans-serif; 
+font-size: 20px;
+font-weight: 700;
  text-decoration: none;
+
 }
 .nav .logo {
  font-size: 22px;
  font-weight: 500;
+ 
 }
 .nav .nav-links {
  column-gap: 20px;
@@ -124,19 +141,19 @@ a {
  pointer-events: none;
 }
 .nav .search-icon {
-  color: #0b0b0b;
+  color: white;
  font-size: 20px;
  cursor: pointer;
 }
 .nav .cart-icon {
  margin-left: 20px;
- color: #0b0b0b;
+ color: white;
  font-size: 20px;
  cursor: pointer;
 }
 .nav .user-icon {
  margin-left: 20px;
- color: #0b0b0b;
+ color: white;
  font-size: 20px;
  cursor: pointer;
  float: right;
@@ -160,7 +177,7 @@ a {
  left: 15px;
  top: 50%;
  left: 15px;
- color: #4a98f7;
+ color: white;
  transform: translateY(-50%);
 }
 .search-box input {
@@ -203,13 +220,10 @@ a {
     height: 100%;
     max-width: 280px;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 120px;
     row-gap: 30px;
     flex-direction: column;
-    background: #C9CCD3;
-    background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
-    background-blend-mode: lighten;
-    background-blend-mode: soft-light,screen;
+    background-color: #111827;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
     z-index: 100;
@@ -218,7 +232,7 @@ a {
     left: 0;
   }
   .nav .navOpenBtn {
-    color: #000000;
+    color: white;
     font-size: 20px;
     cursor: pointer;
   }
@@ -226,7 +240,7 @@ a {
     position: absolute;
     top: 20px;
     right: 20px;
-    color: #11101d;
+    color: white;
     font-size: 20px;
     cursor: pointer;
   }
@@ -247,6 +261,7 @@ a {
   }
   .nav .logo {
     margin-right:0;
+    
 }
   .nav .navOpenBtn,
   .nav .navCloseBtn {
@@ -265,7 +280,7 @@ a {
     padding-top: 100px;
     row-gap: 30px;
     flex-direction: column;
-    background: #C9CCD3;
+    background-color: #111827;
     background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
     background-blend-mode: lighten;
     background-blend-mode: soft-light,screen;
@@ -277,7 +292,7 @@ a {
     left: 0;
   }
   .nav .navOpenBtn {
-    color: #000000;
+    color: white;
     font-size: 20px;
     cursor: pointer;
   }
@@ -285,7 +300,7 @@ a {
     position: absolute;
     top: 20px;
     right: 20px;
-    color: #11101d;
+    color: white;
     font-size: 20px;
     cursor: pointer;
   }
@@ -294,7 +309,7 @@ a {
     max-width: calc(100% - 20px);
     right: 50%;
     transform: translateX(50%);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
   }
 }
 
