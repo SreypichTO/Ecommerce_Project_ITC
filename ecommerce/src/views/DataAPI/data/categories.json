@@ -1,0 +1,266 @@
+[
+  {
+    "id": "eaf3112a-1aa8-4d6e-b8c0-500ecdc23251",
+    "category": "men",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTGSzKIogQFOheYsIlpYBnU7PdYgBGjiQJlQ&usqp=CAU",
+    "title": "Mens Casual Premium "
+  },
+  {
+    "id": "f8d59a14-8c69-4817-a3c0-e2f391b3152e",
+    "category": "men",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTGSzKIogQFOheYsIlpYBnU7PdYgBGjiQJlQ&usqp=CAU",
+    "title": "Mens Barcelona Premium"
+  },
+  {
+    "id": "7369671b-f205-44b2-b217-2c5170deb1c8",
+    "category": "men",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTGSzKIogQFOheYsIlpYBnU7PdYgBGjiQJlQ&usqp=CAU",
+    "title": "Mens Barcelona T-Shirts "
+  },
+  {
+    "id": "8a2520ee-e8c4-4dc4-86a2-4171cbf7e7ed",
+    "category": "men",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTGSzKIogQFOheYsIlpYBnU7PdYgBGjiQJlQ&usqp=CAU",
+    "title": "Mens T-Shirts "
+  },
+  {
+    "id": "1d65865b-9aa2-4b54-8d29-5a5a8bab6f5b",
+    "category": "men",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTGSzKIogQFOheYsIlpYBnU7PdYgBGjiQJlQ&usqp=CAU",
+    "title": "Mens T-Shirts "
+  },
+  {
+    "id": "208ec1db-125b-4355-886a-294fd837b109",
+    "category": "men",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTGSzKIogQFOheYsIlpYBnU7PdYgBGjiQJlQ&usqp=CAU",
+    "title": "Mensc T-Shirts "
+  },
+  {
+    "id": "63ae297c-e7c2-4622-a949-1bdceadd3abf",
+    "category": "men",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTGSzKIogQFOheYsIlpYBnU7PdYgBGjiQJlQ&usqp=CAU",
+    "title": "Mensc T-Shirts "
+  },
+  {
+    "id": "1f64b545-1eba-4134-83a5-8c5a8f8a61c5",
+    "category": "men",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTGSzKIogQFOheYsIlpYBnU7PdYgBGjiQJlQ&usqp=CAU",
+    "title": "Mensc T-Shirts "
+  },
+  {
+    "id": "623103ee-d91a-4b81-a533-63e760d21d88",
+    "category": "kid",
+    "price": 58.99,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9gAID5KAsJg0jOgr4gXYwOsnDnf8KcljLbg&usqp=CAU",
+    "title": "KIT T-Shirts "
+  },
+  {
+    "id": "467510f4-956e-4aa9-a76a-6aac4bb86038",
+    "category": "kid",
+    "price": 58.99,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9gAID5KAsJg0jOgr4gXYwOsnDnf8KcljLbg&usqp=CAU",
+    "title": "KIT T-Shirts "
+  },
+  {
+    "id": "1dc77533-ecef-4268-aca9-21cdc7047d52",
+    "category": "kid",
+    "price": 58.99,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9gAID5KAsJg0jOgr4gXYwOsnDnf8KcljLbg&usqp=CAU",
+    "title": "KIT T-Shirts "
+  },
+  {
+    "id": "6b07d330-4b20-4844-940e-856d2ea4cc9b",
+    "category": "women",
+    "price": 188.56,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvQgx6TY_unimDSVtScoQDkf9HnbtHvFZ--Q&usqp=CAU",
+    "title": "Women's dresses "
+  },
+  {
+    "id": "94fc082a-6118-4e80-b2ae-1f8c61b1755c",
+    "category": "women",
+    "price": 188.56,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvQgx6TY_unimDSVtScoQDkf9HnbtHvFZ--Q&usqp=CAU",
+    "title": "Women's dresses "
+  },
+  {
+    "id": "61dd9c65-2c45-477a-8e4b-cd69bda32253",
+    "category": "women",
+    "price": 188.56,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvQgx6TY_unimDSVtScoQDkf9HnbtHvFZ--Q&usqp=CAU",
+    "title": "Women's dresses "
+  },
+  {
+    "id": "f5057a7e-85a7-4d19-8523-027a3f63d21c",
+    "category": "women",
+    "price": 188.56,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvQgx6TY_unimDSVtScoQDkf9HnbtHvFZ--Q&usqp=CAU",
+    "title": "Women's dresses "
+  },
+  {
+    "id": "b207b6d7-a234-4a59-abb5-a7a5fea0f0e2",
+    "category": "women",
+    "price": 188.56,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvQgx6TY_unimDSVtScoQDkf9HnbtHvFZ--Q&usqp=CAU",
+    "title": "Women's dresses "
+  },
+  {
+    "id": "cf336c50-5572-44f6-a26c-1655e427602a",
+    "category": "women",
+    "price": 188.56,
+    "description": "Slim-fitting style, contrast raglan long sleeve",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvQgx6TY_unimDSVtScoQDkf9HnbtHvFZ--Q&usqp=CAU",
+    "title": "Women's dresses "
+  },
+  {
+    "id": "5656e5f5-af80-4fc4-b173-a7b8ddc376dd",
+    "category": "watch",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNyIgFImk1ADIZ66fb3epAM5ndm1PIrbs0GQ&usqp=CAU",
+    "title": "T rex ultra"
+  },
+  {
+    "id": "928bcf2d-12b8-46e1-947a-a86ba1b651ba",
+    "category": "watch",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNyIgFImk1ADIZ66fb3epAM5ndm1PIrbs0GQ&usqp=CAU",
+    "title": "T rex ultra"
+  },
+  {
+    "id": "dccf59d7-11df-4252-8eac-c70040021507",
+    "category": "watch",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNyIgFImk1ADIZ66fb3epAM5ndm1PIrbs0GQ&usqp=CAU",
+    "title": "T rex ultra"
+  },
+  {
+    "id": "207097f3-0989-4242-a79e-6aa18401bc52",
+    "category": "accessories",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3Kw1TyJmBQaEiqxDApiYMCrAFi3xHyWKfw&usqp=CAU",
+    "title": "Beat fit pro"
+  },
+  {
+    "id": "227e86ed-4d73-4a1d-b41f-9442d40947b1",
+    "category": "accessories",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3Kw1TyJmBQaEiqxDApiYMCrAFi3xHyWKfw&usqp=CAU",
+    "title": "Beat fit pro"
+  },
+  {
+    "id": "61abc3f6-a6a0-4f9d-92f7-60962e42bdbd",
+    "category": "accessories",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3Kw1TyJmBQaEiqxDApiYMCrAFi3xHyWKfw&usqp=CAU",
+    "title": "Beat fit pro"
+  },
+  {
+    "id": "ddc12405-e98d-4069-938f-83109e5f88ad",
+    "category": "accessories",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3Kw1TyJmBQaEiqxDApiYMCrAFi3xHyWKfw&usqp=CAU",
+    "title": "Beat fit pro"
+  },
+  {
+    "id": "c51fb5e6-599c-4608-ba62-99a403d4ed6a",
+    "category": "accessories",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3Kw1TyJmBQaEiqxDApiYMCrAFi3xHyWKfw&usqp=CAU",
+    "title": "Beat fit pro"
+  },
+  {
+    "id": "6e6b2e31-a771-4914-aa42-00003eb12053",
+    "category": "accessories",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3Kw1TyJmBQaEiqxDApiYMCrAFi3xHyWKfw&usqp=CAU",
+    "title": "Beat fit pro"
+  },
+  {
+    "id": "ea0ed033-8419-4583-8b51-c678b65cacad",
+    "category": "accessories",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3Kw1TyJmBQaEiqxDApiYMCrAFi3xHyWKfw&usqp=CAU",
+    "title": "Beat fit pro"
+  },
+  {
+    "id": "53b81eeb-9003-464a-a7ff-6fa5aa5d9473",
+    "category": "women",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI0UlDAIPGSRt0LGVJAsC-LSn7iMmL3cPsvg&usqp=CAU",
+    "title": "Womwn dress"
+  },
+  {
+    "id": "9fe95fdf-04c7-4809-ad26-4e624f7ecc9f",
+    "category": "shoe",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR76gTJfwOzW8n61CWZCX27ADK_pGHDn2AyDA&usqp=CAU",
+    "title": "Nike"
+  },
+  {
+    "id": "6b47d324-8c58-46e5-a8ac-38d08e555615",
+    "category": "shoe",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR76gTJfwOzW8n61CWZCX27ADK_pGHDn2AyDA&usqp=CAU",
+    "title": "Nike"
+  },
+  {
+    "id": "394f4351-5d07-4571-86ba-7e62d409e3b5",
+    "category": "shoe",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR76gTJfwOzW8n61CWZCX27ADK_pGHDn2AyDA&usqp=CAU",
+    "title": "Nike"
+  },
+  {
+    "id": "3c5bcfce-05b7-41b1-a8b7-6eeb1c071e6f",
+    "category": "women",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2svOa4IbdOuP6SLHVDbUe5NcPfFBdwvcW2Q&usqp=CAU",
+    "title": "Latest women dress"
+  },
+  {
+    "id": "29e1b895-6a35-4b0c-aec9-d223780a8956",
+    "category": "women",
+    "price": 399.99,
+    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2svOa4IbdOuP6SLHVDbUe5NcPfFBdwvcW2Q&usqp=CAU",
+    "title": "Latest women dress"
+  }
+]

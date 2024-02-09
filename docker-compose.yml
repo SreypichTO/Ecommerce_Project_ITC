@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+#=======================================================
+  ecommerce:
+    container_name: ecommerce
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./ecommerce/dist:/usr/share/nginx/html
+    ports:
+      - '1688:80'
+    networks:
+      - ecommerce
+networks:
+  ecommerce:
+  # hg
