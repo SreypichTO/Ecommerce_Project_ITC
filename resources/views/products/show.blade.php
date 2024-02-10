@@ -84,6 +84,7 @@
                 <th>ID</th>
                 <th>Title</th>
                 <th>Category</th>
+                <th>Brand</th>
                 <th>Price</th>
                 <th>Description</th>
                 <th>Image</th>
@@ -96,6 +97,7 @@
                 <td>{{$item->id}}</td>
                 <td>{{$item->title}}</td>
                 <td>{{$item->category}}</td>
+                <td>{{$item->brand}}</td>
                 <td>${{$item->price}}</td>
                 <td>{{$item->description}}</td>
                 <td>

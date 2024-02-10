@@ -120,6 +120,16 @@
                 @enderror
             </div>
             <div class="form-group">
+                <select class="form-select" aria-label="Default select example" name="brand">
+                    <option value="MEN" {{ old('brand') == 'NIKE' ? 'selected' : '' }}>NIKE</option>
+                    <option value="WOMEN" {{ old('brand') == 'ADIDAS' ? 'selected' : '' }}>ADIDAS</option>
+                    <option value="KIDS" {{ old('brand') == 'CROCS' ? 'selected' : '' }}>CROCS</option>
+                </select>
+                @error('brand')
+                <span class="text-danger">{{ $message }}</span>
+                @enderror
+            </div>
+            <div class="form-group">
                 <input type="number" class="form-control" name="price" placeholder="($) Price in US" value="{{ old('price') }}">
                 @error('price')
                 <span class="text-danger">{{ $message }}</span>

@@ -10,6 +10,7 @@ class ProductController extends Controller
         $request -> validate([
             'title' => 'required',
             'category' => 'required',
+            'brand' => 'required',
             'description' => 'required',
             'price' => 'required',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
@@ -19,6 +20,7 @@ class ProductController extends Controller
         $product = new Product();
         $product->title = $request->title;
         $product->category= $request->category;
+        $product->brand= $request->brand;
         $product->description= $request->description;
         $product->price = $request->price;
 
@@ -49,6 +51,7 @@ class ProductController extends Controller
         $request -> validate([
             'title' => 'required',
             'category' => 'required',
+            'brand' => 'required',
             'description' => 'required',
             'price' => 'required'
             // 'image' => 'required'
@@ -86,6 +89,7 @@ class ProductController extends Controller
         // dd($request->input());
         $product->title = $request->title;
         $product->category= $request->category;
+        $product->brand= $request->brand;
         $product->description= $request->description;
         $product->price = $request->price;
         // $product->update();
